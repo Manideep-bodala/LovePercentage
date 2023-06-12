@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap" rel="stylesheet">
+</head>
+<style>
+    span{
+        color: rgba(244, 19, 38, 0.94);
+    }
+</style>
+<body>
+      <!-- Title -->
+ <div id="title" class="gradient-background">
+    <h1> Love  Percentage </h1>
+ </div>
+
+ <div id="text">
+    <h3> <span> Welcome</span> !to The <span>Love</span> Percentage <span> % </span> </h3>
+    <p>Are you curious to know how compatible you are with your partner or crush? <BR>
+        Our Love Calculator can help you find out! Just enter your names and let the magic happen.
+    </p>
+    <h4>Instructions:</h4>
+    <p>1. Enter your name and the name of your partner or crush in the designated fields.</p>
+    <p>2. Click the "Calculate" button to see your love compatibility score.</p>
+ </div>
+
+ <div id="main" class="container">       
+        <div class="form-group">
+          <label for="person1">Name :</label>
+              <input type="text" id="person1" placeholder="Enter Your name ">
+         </div>
+          <div class="form-group">
+           <label for="person2">Partner Name:</label>
+             <input type="text" id="person2" placeholder="Enter Partner name">
+           </div>
+           <button onclick="calculateLoveScore()">Calculate Love %</button>
+         <div id="love-score" class="love-score"></div>
+         <div id="love-message" class="love-message"></div>
+        </div>
+ </div>
+
+ <div id="footer" class="gradient-background">
+    <h4>Disclaimer: </h4>
+    <p> * Please note that the Love percentage is purely for entertainment purposes. <br> 
+        * The results should not be taken as definitive proof of compatibility or the future outcome of any relationship. <br> 
+        * Remember, love is complex and cannot be solely determined by calculations. <br>
+    </p>
+    <h5>created by :<br>  <a href="https://instagram.com/manideepbodala?igshid=NGExMmI2YTkyZg=="> Manideep Bodala</a> </h5>
+ </div>
+ <script src="script.js"></script>   
+</body>
+</html>
