@@ -1,0 +1,2 @@
+# LovePercentage
+project for JavaScript  
